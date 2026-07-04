@@ -7,8 +7,10 @@ If we organize knowledge points into knowledge sets, then for any two sets that 
 
 So, as long as there are proper rules for filtering collision combinations and a suitable Loop is designed for an Agent, could it continuously generate new ideas?
 
-
 # Section 2
+The relationship between forgetting and innovation feels analogous to the principles behind LLMs (Large Language Models). When relearning forgotten knowledge A, the knowledge you still retain differs from what you retained the previous time you learned A. This is equivalent to providing different preceding contexts to an LLM on two separate occasions, thereby generating different outputs — outputs that may contain innovation. In short, forgetting and relearning effectively restructure the transmission pathways of neural circuits, creating a certain probability of giving rise to new neural nodes — and these new neural nodes may signify innovation.
+
+# Section 3
 - On-demand loading is still not enough. Nothing is set in stone. For certain tool documentation, they should be broken down into the most fundamental, indivisible "parts | tools." When a specific task begins, let the AI decide which part or parts to use, and if necessary, assemble those parts into one or more components.
 - When conversing with AI, I've found that in most cases only the first turn produces the best result. Even if you ask a follow-up question immediately after, the response quality can drop off a cliff — you have to feed in the full prompt all over again. So why not just start a brand-new conversation? That way the first turn won't contaminate the follow-up either.
 - Load on demand, discard at will, work in stages. Each stage starts from scratch: redesign the prompt, strip away the memory of the previous stage, strip away the previous stage's fixations, and guard against preconceived notions.
